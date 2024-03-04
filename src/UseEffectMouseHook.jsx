@@ -18,6 +18,11 @@ const UseEffectMouseHook = () => {
     useEffect(()=> {
         console.log('render!')
         window.addEventListener('mousemove', mouseLog)
+
+        return () => {
+          console.log('Unmount code')
+          window.removeEventListener('mousemove', mouseLog)
+        }
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
