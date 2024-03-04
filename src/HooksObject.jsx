@@ -8,6 +8,15 @@ const HooksObject = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if(name.firstName === '' ) {
+      alert('Please Enter Firstname!');
+      return;
+    }
+    
+    if(name.lastName === ''){
+      alert('Please enter Lastname!')
+      return;
+    }
     alert(`Thank you Mr/Mrs: ${name.firstName} ${name.lastName}`)
     setName({
       ...name,

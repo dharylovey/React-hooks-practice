@@ -3,7 +3,7 @@ import HooksObject from "./HooksObject"
 
 const App = () => {
   return (
-    <div>
+    <div className="flex items-center justify-center">
       <HooksObject />
     </div>
   )
