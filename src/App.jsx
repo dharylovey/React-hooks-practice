@@ -1,7 +1,9 @@
 // import HooksArray from "./HooksArray"
 // import HooksObject from "./HooksObject"
 
-import UseEffectHooks from "./UseEffectHooks"
+import UseEffectMouseHook from "./UseEffectMouseHook"
+
+// import UseEffectHooks from "./UseEffectHooks"
 
 
 const App = () => {
@@ -9,7 +11,8 @@ const App = () => {
     <div className="flex items-center justify-center">
       {/* <HooksObject /> */}
       {/* <HooksArray /> */}
-      <UseEffectHooks />
+      {/* <UseEffectHooks /> */}
+      <UseEffectMouseHook />
     </div>
   )
 }
