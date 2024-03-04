@@ -23,6 +23,7 @@ const HooksObject = () => {
       firstName: '',
       lastName: ''
     })
+    console.log(name)
   }
   return (
     <form onSubmit={handleSubmit}>
@@ -45,6 +46,7 @@ const HooksObject = () => {
       <h2>Name: {name.firstName}</h2>
       <h2>Lastname: {name.lastName}</h2>
       <button>Submit</button>
+      
     </form>
   )
 }
