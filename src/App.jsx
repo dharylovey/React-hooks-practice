@@ -2,8 +2,9 @@
 // import HooksObject from "./HooksObject"
 // import UseEffectMouseHook from "./UseEffectMouseHook"
 // import UseEffectHooks from "./UseEffectHooks"
+// import UseEffectCleanupFunction from "./UseEffectCleanupFunction"
 
-import UseEffectCleanupFunction from "./UseEffectCleanupFunction"
+import UseEffectIncorrectDep from "./UseEffectIncorrectDep"
 
 
 const App = () => {
@@ -13,7 +14,8 @@ const App = () => {
       {/* <HooksArray /> */}
       {/* <UseEffectHooks /> */}
       {/* <UseEffectMouseHook /> */}
-      <UseEffectCleanupFunction />
+      {/* <UseEffectCleanupFunction /> */}
+      <UseEffectIncorrectDep />
     </div>
   )
 }
