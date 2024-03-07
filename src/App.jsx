@@ -8,11 +8,15 @@
 // import UseEffectFetchData2 from "./UseEffectFetchData2" 
 // import UseEffectFetchData from "./UseEffectDataFetchOnclick"
 // import FetchDataFinal from "./FetchDataFinal"
-import ComponentC from "./components/ComponentC"
-import { createContext } from "react"
+// import ComponentC from "./components/ComponentC"
+// import { createContext } from "react"
+// export const UserContext = createContext()
+// export const MultiContext = createContext()
 
-export const UserContext = createContext()
-export const MultiContext = createContext()
+// import UseReducer from "./UseReducer"
+import Reducer from "./components/Reducer"
+
+
 
 
 
@@ -32,12 +36,13 @@ const App = () => {
       {/* <UseEffectFetchData2 /> */}
       {/* <UseEffectFetchData /> */}
       {/* <FetchDataFinal /> */}
-      <UserContext.Provider value={'Dharyl'}>
+      {/* <UserContext.Provider value={'Dharyl'}>
         <MultiContext.Provider value={'almora'}>
           <ComponentC />
         </MultiContext.Provider>
-      </UserContext.Provider>
-
+      </UserContext.Provider> */}
+      {/* <UseReducer /> */}
+      <Reducer />
     </div>
   )
 }
