@@ -13,8 +13,11 @@
 // export const UserContext = createContext()
 // export const MultiContext = createContext()
 
+// import ReducerComplex from "./ReducerComplex"
+import ReducerPractice from "./ReducerPractice"
+
 // import UseReducer from "./UseReducer"
-import Reducer from "./components/Reducer"
+// import Reducer from "./components/Reducer"
 
 
 
@@ -42,7 +45,9 @@ const App = () => {
         </MultiContext.Provider>
       </UserContext.Provider> */}
       {/* <UseReducer /> */}
-      <Reducer />
+      {/* <Reducer /> */}
+      {/* <ReducerComplex /> */}
+      <ReducerPractice />
     </div>
   )
 }
