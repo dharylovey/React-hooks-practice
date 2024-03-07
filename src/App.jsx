@@ -5,7 +5,9 @@
 // import UseEffectCleanupFunction from "./UseEffectCleanupFunction"
 // import UseEffectIncorrectDep from "./UseEffectIncorrectDep"
 // import UseEffectFetchData from "./UseEffectFetchData"
-import UseEffectFetchData2 from "./UseEffectFetchData2"
+// import UseEffectFetchData2 from "./UseEffectFetchData2"
+
+import UseEffectFetchData from "./UseEffectDataFetchOnclick"
 
 
 
@@ -21,7 +23,8 @@ const App = () => {
       {/* <UseEffectCleanupFunction /> */}
       {/* <UseEffectIncorrectDep /> */}
       {/* <UseEffectFetchData /> */}
-      <UseEffectFetchData2 />
+      {/* <UseEffectFetchData2 /> */}
+      <UseEffectFetchData />
     </div>
   )
 }
