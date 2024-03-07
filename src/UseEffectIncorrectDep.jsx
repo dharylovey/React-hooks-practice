@@ -4,7 +4,7 @@ const UseEffectIncorrectDep = () => {
     const [count, setCount] =useState(0);
 
     const counter = () => {
-        setCount(count => count +  1)
+        setCount(prevCount => prevCount +  1)
     }
 
     useEffect(()=> {
@@ -12,7 +12,7 @@ const UseEffectIncorrectDep = () => {
         return () => {
             clearInterval(interval)
         }
-    },[])
+    },[count])
 
   return (
     <div>

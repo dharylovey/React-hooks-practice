@@ -3,8 +3,10 @@
 // import UseEffectMouseHook from "./UseEffectMouseHook"
 // import UseEffectHooks from "./UseEffectHooks"
 // import UseEffectCleanupFunction from "./UseEffectCleanupFunction"
+// import UseEffectIncorrectDep from "./UseEffectIncorrectDep"
+import UseEffectFetchData from "./UseEffectFetchData"
 
-import UseEffectIncorrectDep from "./UseEffectIncorrectDep"
+
 
 
 const App = () => {
@@ -15,7 +17,8 @@ const App = () => {
       {/* <UseEffectHooks /> */}
       {/* <UseEffectMouseHook /> */}
       {/* <UseEffectCleanupFunction /> */}
-      <UseEffectIncorrectDep />
+      {/* <UseEffectIncorrectDep /> */}
+      <UseEffectFetchData />
     </div>
   )
 }
