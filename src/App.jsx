@@ -5,10 +5,14 @@
 // import UseEffectCleanupFunction from "./UseEffectCleanupFunction"
 // import UseEffectIncorrectDep from "./UseEffectIncorrectDep"
 // import UseEffectFetchData from "./UseEffectFetchData"
-// import UseEffectFetchData2 from "./UseEffectFetchData2"
+// import UseEffectFetchData2 from "./UseEffectFetchData2" 
 // import UseEffectFetchData from "./UseEffectDataFetchOnclick"
+// import FetchDataFinal from "./FetchDataFinal"
+import ComponentC from "./components/ComponentC"
+import { createContext } from "react"
 
-import FetchDataFinal from "./FetchDataFinal"
+export const UserContext = createContext()
+export const MultiContext = createContext()
 
 
 
@@ -27,7 +31,13 @@ const App = () => {
       {/* <UseEffectFetchData /> */}
       {/* <UseEffectFetchData2 /> */}
       {/* <UseEffectFetchData /> */}
-      <FetchDataFinal />
+      {/* <FetchDataFinal /> */}
+      <UserContext.Provider value={'Dharyl'}>
+        <MultiContext.Provider value={'almora'}>
+          <ComponentC />
+        </MultiContext.Provider>
+      </UserContext.Provider>
+
     </div>
   )
 }
