@@ -21,16 +21,8 @@
 // import UseStateObject from "./fourstate/UseStateArray"
 // import UseState from "./fourstate/useState"
 // import UseReducer from "./fourstate/UseReducer"
-
-
-
-
-
-
-
-
-
-
+import FetchDataUseReducer from "./FetchDataUseReducer"
+import './App.css'
 
 
 
@@ -62,6 +54,7 @@ const App = () => {
       {/* <UseStateObject /> */}
       {/* <UseEffectHooks /> */}
       {/* <UseReducer /> */}
+      <FetchDataUseReducer />
     </div>
   )
 }
