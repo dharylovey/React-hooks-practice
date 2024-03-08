@@ -12,12 +12,21 @@
 // import { createContext } from "react"
 // export const UserContext = createContext()
 // export const MultiContext = createContext()
-
 // import ReducerComplex from "./ReducerComplex"
-import ReducerPractice from "./ReducerPractice"
-
+// import ReducerPractice from "./ReducerPractice"
 // import UseReducer from "./UseReducer"
 // import Reducer from "./components/Reducer"
+// import UseStateObject from "./fourstate/UseStateObject"
+// import UseEffectHooks from "./fourstate/UseEffectHooks"
+// import UseStateObject from "./fourstate/UseStateArray"
+// import UseState from "./fourstate/useState"
+// import UseReducer from "./fourstate/UseReducer"
+
+
+
+
+
+
 
 
 
@@ -47,7 +56,12 @@ const App = () => {
       {/* <UseReducer /> */}
       {/* <Reducer /> */}
       {/* <ReducerComplex /> */}
-      <ReducerPractice />
+      {/* <ReducerPractice /> */}
+      {/* <UseState /> */}
+      {/* <UseStateObject /> */}
+      {/* <UseStateObject /> */}
+      {/* <UseEffectHooks /> */}
+      {/* <UseReducer /> */}
     </div>
   )
 }
